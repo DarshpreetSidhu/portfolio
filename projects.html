@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <img src="images/logo.png" alt="thapa technical logo" class="logo" />
+      <nav class="navbar">
+        <ul class="navbar-lists">
+            <li><a class="navbar-link home-link" href="#" >Home</a></li>
+            <li><a class="navbar-link about-link" href="/about.html">About</a></li>
+            <li><a class="navbar-link what-link" href="/what.html">What I do?</a></li>
+            <li><a class="navbar-link projects-link" href="/projects.html">Projects</a></li>
+            <li>
+              <a
+                class="navbar-link"
+                href="/contact.html"
+                target="_blank"
+                >Contact</a
+              >
+            </li>
+        </ul>
+      </nav>
+
+      <div class="mobile-navbar-btn">
+        <ion-icon
+          class="mobile-nav-icon"
+          name="menu-outline"
+          class="mobile-nav-icon"
+        ></ion-icon>
+
+        <ion-icon
+          class="mobile-nav-icon"
+          name="close-outline"
+          class="mobile-nav-icon"
+        ></ion-icon>
+      </div>
+    </header>
+   <!-- ======================================== 
+        Projects Section Start  
+    ========================================  -->
+    <section class="section-portfolio section " id="portfolio-section">
+        <div class="container">
+          <h2 class="common-heading">Latest works</h2>
+          
+        </div>
+  
+        <div class="p-btns">
+         
+          <button class="btn p-btn " data-btn-num="1" >Projects  </button>
+          
+        </div>
+        
+        <div class="container grid grid-three-col portfolio-images">
+          <div class="img-ovelay p-btn--1" >
+            <img src="images/folio/1.jpg" loading="lazy" alt="portfolio images "  />
+            <div class="overlay">
+              <a href="http://charcounter.thapaonlineclass.com/" target="_blank"  class="common-heading">Project 1</a>
+            </div>
+          </div>
+  
+          <div class="img-ovelay p-btn--3">
+            <img src="images/folio/4.jpg" loading="lazy" alt="portfolio images " />
+            <div class="overlay">
+               <a href="https://www.thapatechnical.com/" target="_blank"  class="common-heading">Project 2</a>
+            </div>
+          </div>
+  
+          <div class="img-ovelay p-btn--1">
+            <img src="images/folio/3.jpg" loading="lazy" alt="portfolio images "  />
+            <div class="overlay">
+               <a href="" target="_blank"  class="common-heading">Project 3</a>
+            </div>
+          </div>
+          <div class="img-ovelay p-btn--1 p-btn--2">
+            <img src="images/folio/4.jpg" loading="lazy" alt="portfolio images "  />
+            <div class="overlay">
+               <a href="" target="_blank"  class="common-heading">Project 4</a>
+            </div>
+          </div>
+          <div class="img-ovelay p-btn--2">
+            <img src="images/folio/5.jpg" loading="lazy" alt="portfolio images "  />
+            <div class="overlay">
+               <a href="" target="_blank"  class="common-heading">Project 5</a>
+            </div>
+          </div>
+          <div class="img-ovelay p-btn--1">
+            <img src="images/folio/1.jpg" loading="lazy" alt="portfolio images "  />
+            <div class="overlay">
+               <a href="" target="_blank"  class="common-heading">Project 6</a>
+            </div>
+          </div>
+        </div>
+      </section>
+ <!-- ======================================== 
+          Our JavaScript Section   
+    ========================================  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
