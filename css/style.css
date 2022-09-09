@@ -41,8 +41,11 @@ h4 {
 h1 {
   color: var(--heading);
   font-size: 6rem;
-  font-weight: 600;
+  font-weight: 800;
+  
 }
+
+
 
 p {
   color: var(--para);
@@ -214,12 +217,14 @@ Hero  Section Start
   font-size: 1.5rem;
   color: var(--helper);
 }
-
-.hero-heading {
-  text-transform: uppercase;
+.hero-heading{
+font-size: 4.8rem;
   font-weight: 700;
-  font-size: 6.4rem;
-}
+  margin-bottom: 6rem;
+  text-transform: uppercase;
+  position: relative;}
+
+
 
 .hero-para {
   margin-top: 1.5rem;
@@ -904,8 +909,8 @@ Media Queries Section
   }
 
   /* work section  */
-  .section-work-data .grid-four-col {
-    grid-template-columns: 1fr 1fr;
+  .section-services .grid-three-col {
+    grid-template-columns: 1fr ;
   }
 
   /* services section  */
