@@ -748,6 +748,11 @@ Media Queries Section
     border: 3px solid #212529;
     color: #212529;
   }
+ .mobile-nav-icon{
+  width: 5rem;
+  height: 5rem;
+  color:#212529;
+ }
 
   .header {
     position: relative;
@@ -773,6 +778,7 @@ Media Queries Section
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
+    z-index: 999;
   }
 
   .navbar-lists {

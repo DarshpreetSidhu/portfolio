@@ -1,18 +1,12 @@
-========================================
-//  scroll to top
+
+// Responsive navigation
 // ========================================
-const footerElm = document.querySelector(".section-footer");
+const mobile_nav = document.querySelector(".mobile-navbar-btn");
+const nav_header = document.querySelector(".header");
 
-const scrollElement = document.createElement("div");
-scrollElement.classList.add("scrollTop-style");
-
-scrollElement.innerHTML = ` <ion-icon name="arrow-up-outline" class="scroll-top"></ion-icon>`;
-
-footerElm.after(scrollElement);
-
-
-const scrollTop = () => {
-    sectionHero.scrollIntoView({ behavior: "smooth" });
+const toggleNavbar = () => {
+    // alert("hi");
+    nav_header.classList.toggle("active");
 };
 
-document.querySelector(".scroll-top").addEventListener("click", scrollTop);
+mobile_nav.addEventListener("click", () => toggleNavbar());
