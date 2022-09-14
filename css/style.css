@@ -961,18 +961,9 @@ gap:3.2rem;
   /* work section  */
   .section-services .grid-three-col {
     grid-template-columns: 1fr ;
-  }
-  .service-box {
-    text-align: center;
     box-shadow: var(--shadpw);
-    border-radius: 5px;
-    padding: 6.4rem 3.4rem;
-    transition: all 0.2s linear;
   }
   
-  .service-box:hover {
-    transform: translateY(-3rem);
-  }
 
   /* services section  */
   .section-contact .grid-four-col {
