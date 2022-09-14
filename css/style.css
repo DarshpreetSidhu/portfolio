@@ -85,6 +85,8 @@ li {
   transition: all 0.3s ease 0s;
   cursor: pointer;
   position: relative;
+  margin-top: 10px;
+  margin-right: 20px;
 
 }
 
@@ -655,7 +657,10 @@ freelancer  Section
   transition: all 0.2s linear;
 }
 
+
 .contact-box:hover {
+  background-color: #f7c785;
+  transition: all 0.2s linear;
   transform: translateY(-3rem);
 }
 
@@ -969,4 +974,7 @@ gap:3.2rem;
   .section-contact .grid-four-col {
     grid-template-columns: 1fr;
   }
+  
+
+
 }
